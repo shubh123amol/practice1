@@ -8,3 +8,4 @@ System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
 		  driver.get("https://demo.guru99.com/test/upload/");
 		  driver.close();
 		  driver.get();
+		  driver.quit();
