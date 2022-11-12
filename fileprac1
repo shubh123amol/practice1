@@ -9,3 +9,9 @@ System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
 		  driver.close();
 		  driver.get();
 		  driver.quit();
+		  driver.manage().window().maximize();
+		    driver.manage().window().minimize();
+		    driver.navigate().refresh();
+		    Thread.sleep(2000);
+		    driver.navigate().back();
+		    
